@@ -1,4 +1,5 @@
 export _JAVA_AWT_WM_NONREPARENTING=1
+numlockx &
 xsetroot -cursor_name left_ptr
 feh --bg-fill ~/.dotfiles/X11/bg.png
 xrdb -merge ~/.Xresources

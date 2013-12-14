@@ -230,7 +230,8 @@ URxvt*scrollstyle: plain
 
 ! Compile frills: Associate string with keysym sym. The intervening resource name keysym. cannot be omitted.
 ! URxvt*keysym.sym: string
-
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
 ! URxvt*perl-ext-common: string
 
 ! Comma-separated list(s) of perl extension scripts (default: "default") to use in this terminal instance; option -pe.
